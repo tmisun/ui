@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',dotum,applegothic,sans-serif;font-size:12px}
+form,fieldset,legend,input,textarea{margin:0;padding:0}
+legend,.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+fieldset,table,img{border:0}
+caption{display:none}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+button{border:0;background:none;background-repeat:no-repeat;cursor:pointer}
+#wrap{width:100%;background:#232232 url(../img/bg_game.jpg) 50% 0 no-repeat}
+#wrap2{width:100%;background:#232232 url(../img/bg_main.jpg) 50% 0 no-repeat}
+#wrap_type2{width:100%;background:#232232 url(http://static.naver.com/branding/gameaward2011/bg_main2.jpg) 50% 0 no-repeat !important}
+#wrap_type3{width:100%;background:#232232 url(http://static.naver.com/branding/gameaward2011/bg_main3.jpg) -9px 0 no-repeat !important}
+#wrap_type5{width:100%;background:#232232 url(../img/bg_game2.jpg) 50% 0 no-repeat !important}
+.game_wrap{width:960px;margin:0 auto;background:#fff;position:relative}
+.game_header{position:relative;width:960px;height:451px;background:url(../img/bg_spot.gif) 0 0 no-repeat}
+.game_header .img_logo{position:absolute;top:36px;left:343px}
+.game_gnb ul{overflow:hidden;position:absolute;top:25px;right:64px;width:239px;*zoom:1}
+.game_gnb ul.gnb_lst{top:14px}
+.game_gnb ul li{float:left;height:27px;background:url(http://static.naver.com/branding/gameaward2011/sp_logos_re.gif) 0 0 no-repeat}
+.game_gnb ul li.gnb{width:91px}
+.game_gnb ul li.gnb2{width:138px;height:27px;margin-left:5px;background-position:10px -32px}
+.game_gnb ul li a{display:block;overflow:hidden;line-height:999px}
+.game_gnb ul li.gnb a{width:79px;height:23px}
+.game_gnb ul li.gnb2 a{width:138px;height:27px;margin-left:5px}
+.game_intro{position:relative}
+.game_intro .apply{position:absolute;left:613px;top:164px;width:227px;height:92px;background:url(http://static.naver.com/branding/gameaward2011/btn_apply.jpg) 0 0 no-repeat}/* 20110719 JWM */
+.game_intro .me2day_area{position:absolute;top:161px;left:-195px;width:168px;height:39px;background:url(http://static.naver.com/branding/gameaward2011/bg_btn.jpg) 0 0 no-repeat}
+.game_intro .me2day_area a.btn_me2day{overflow:hidden;position:absolute;width:162px;height:34px;line-height:999px}
+.game_lnb{height:52px;padding-top:399px}
+.game_lnb ul{overflow:hidden;*zoom:1}
+.game_lnb ul li{float:left}
+.game_lnb ul li a{display:block;overflow:hidden;width:192px;height:52px;background:url(../img/sp_tab.gif) 0 0 no-repeat;line-height:999px}
+.game_lnb ul li a.lnb2{background-position:-192px 0}
+.game_lnb ul li a.lnb3{background-position:-384px 0}
+.game_lnb ul li a.lnb4{background-position:-576px 0}
+.game_lnb ul li a.lnb5{background-position:-768px 0}
+.game_lnb ul li a.lnb_on{background-position:0 -55px}
+.game_lnb ul li a.lnb2_on{background-position:-192px -55px}
+.game_lnb ul li a.lnb3_on{background-position:-384px -55px}
+.game_lnb ul li a.lnb4_on{background-position:-576px -55px}
+.game_lnb ul li a.lnb5_on{background-position:-768px -55px}
+.game_content{width:100%;height:1050px;background:#fff}
+.game_content2{width:100%;height:1149px;background:#fff url(../img/bg_epil.jpg) 0 0 no-repeat}
+.game_content4{width:100%;height:1913px;background:#fff url(../img/bg_epil.jpg) 0 0 no-repeat}
+.game_date{width:960px;height:139px;background:url(../img/bg_summary.gif) 0 0 no-repeat}
+.game_dsc{width:960px;height:358px;background:url(../img/bg_summary2.gif) 0 0 no-repeat}
+.game_dsc2{width:960px;height:114px;background:url(../img/bg_summary3.gif) 0 0 no-repeat}
+.game_dsc3{width:960px;height:292px;background:url(../img/bg_summary4.gif) 0 0 no-repeat}
+.game_dsc4{width:960px;height:189px;background:url(../img/bg_summary5.gif) 0 0 no-repeat}
+.game_apply{position:relative;width:960px;height:567px;background:url(http://static.naver.com/branding/gameaward2011/p_apply.gif) 0 0 no-repeat}
+.game_apply .dnld_area{overflow:hidden;position:absolute;top:140px;left:97px;height:26px;*zoom:1}
+.game_apply .dnld_area a{display:inline-block;overflow:hidden;float:left;width:193px;height:27px;margin-left:11px;line-height:999px}
+.game_apply .dnld_area a.link2{width:183px !important}
+.game_apply a.link3{display:block;overflow:hidden;position:absolute;top:513px;left:414px;width:182px;height:23px;line-height:999px}
+.game_awarded{position:relative;width:960px;height:108px;background:url(http://static.naver.com/branding/gameaward2011/p_game5.gif) 0 0 no-repeat}
+.game_awarded a.link{display:block;overflow:hidden;overflow:hidden;position:absolute;top:68px;left:712px;width:124px;height:16px;line-height:999px}
+.game_awarded2{background:url(http://static.naver.com/branding/gameaward2011/bg_left.jpg) 0 0 no-repeat}
+.game_awarded2 .awarded_lst{overflow:hidden;margin:-17px 70px 23px;*zoom:1}
+.game_awarded2 .awarded_lst li{float:left;position:relative;width:224px;margin:17px 47px 0 0;padding:8px;border:1px solid #e1e1e1}
+.game_awarded2 .awarded_lst li img.winner{margin-top:-2px}
+.game_awarded2 .awarded_lst li.last{margin-right:0 !important}
+.game_awarded2 .awarded_lst li a.link_view{display:block;overflow:hidden;position:absolute;top:204px;left:190px;width:44px;height:16px;background:url(http://static.naver.com/branding/gameaward2011/txt_view.gif) 0 0 no-repeat;line-height:999px}
+.game_awarded3 .awarded_lst2{height:287px;margin:0 0 50px 70px;background:url(http://static.naver.com/branding/gameaward2011/img_lst.jpg) 0 0 no-repeat}
+.game_banner .banner_lst{overflow:hidden;margin:0 70px;border-bottom:2px solid #272738;*zoom:1}
+.game_banner .banner_lst li{float:left;position:relative;width:460px;height:91px}
+.game_banner .banner_lst li a.link_detail{display:block;overflow:hidden;position:absolute;left:1px;bottom:14px;width:83px;height:19px;line-height:999px}
+.game_banner .banner_lst li.banner_frst{background:url(http://static.naver.com/branding/gameaward2011/img_ban.jpg) 0 0 no-repeat}
+.game_banner .banner_lst li.banner_secnd{width:335px !important;background:url(http://static.naver.com/branding/gameaward2011/img_ban2.jpg) 0 0 no-repeat}
+.game_footer{position:relative}
+.game_footer a{display:block;overflow:hidden;position:absolute;top:-191px;right:-27px;width:10px;height:57px;line-height:999px}
+.game_footer a.link2{top:-195px;right:-26px !important}
+.game_footer .game_copyright{position:absolute;top:-258px;right:-27px;width:11px;height:226px;background:url(../img/bg_game_copyright.gif) 0 0 no-repeat}
+/* 20110719 JWM */
+input.text{width:195px;height:16px;border:1px solid #d0d0d0;background:#fff;vertical-align:top}
+input.text2{width:96px}
+input.text3{width:33px}
+input.text4{width:246px}
+*+html input.text{margin:-1px 0 -1px;}
+input.check{width:14px;height:14px;margin:1px -2px 2px 0;vertical-align:top}
+.chk_wrap{display:inline-block;width:66px}
+*+html input.check{margin-top:2px}
+.apply_content{position:relative;height:1309px;margin:0 auto;padding-left:128px;background:url(http://static.naver.com/branding/gameaward2011/bg_apply.jpg) no-repeat;_background-position:4px 0}
+:root .apply_content{background-position:-2px 0}
+.apply_content h1 a{display:inline-block;position:absolute;left:685px;top:55px;width:76px;height:23px}
+.apply_content .hangame a{display:inline-block;position:absolute;left:762px;top:55px;width:118px;height:23px}
+.apply_content input{font-family:'Nanumgothic', 'Dotum';padding:2px 2px 0}
+.apply_content th{padding-left:33px;text-align:left;vertical-align:top}
+*+html .apply_content th{width:78px}
+.apply_content th.sh{width:90px;padding-left:55px}
+.apply_content td{height:20px;text-align:left;padding:0 0 4px}
+.apply_content td.sd{height:20px;text-align:left;padding:0 40px 4px 25px}
+*+html .apply_content td.sd{padding:0 50px 4px 0}
+.apply_content .agree{width:707px;height:20px;padding:11px 0 0 31px;margin-top:6px;border-top:1px solid #ededed}
+.apply_content .agree2{width:707px;height:20px;padding:11px 0 0 31px}
+*+html .apply_content .agree{padding-left:30px}
+.apply_content .h2_area{width:325px;height:316px;background:url(http://static.naver.com/branding/gameaward2011/h2_apply.gif) 0 120px no-repeat}
+.apply_content h3{margin-bottom:10px}
+.apply_content h4{margin:32px 0 10px}
+.apply_content .u_notice{width:740px;height:97px;margin-top:6px;background:url(http://static.naver.com/branding/gameaward2011/bg_upload_notice.gif) 0 0 no-repeat;border-top:1px solid #ededed}
+.apply_content .notice{width:740px;height:340px;margin-top:0;background:url(http://static.naver.com/branding/gameaward2011/bg_notice.gif) 0 0 no-repeat}
+.apply_content .handout{width:740px;margin-top:26px;padding-bottom:52px;border-bottom:2px solid #282739;text-align:center}
+.apply_content .handout input{width:240px;height:52px;text-align:center;border:0;background:url(http://static.naver.com/branding/gameaward2011/btn_handout.jpg) 0 0 no-repeat;cursor:pointer}
+.apply_content .cs{position:relative;width:513px;height:41px;background:url(http://static.naver.com/branding/gameaward2011/bg_cs.gif) 0 0 no-repeat}
+.apply_content .go_cs{display:inline-block;position:absolute;left:341px;top:22px;width:172px;height:19px}
+#footer{font-family:Verdana, Dotum;font-size:9px;color:#878787;text-align:center;padding-bottom:267px}
+#footer a{color:#878787;text-decoration:none}
+/* input[type="file"] 에 관한 style */
+.browsebutton{position:relative;height:23px}
+.browsebutton .browse-output-wrap{position:absolute;display:block;width:185px;height:14px;border:1px solid #d0d0d0;margin-right:5px;padding:3px 3px 1px 3px;overflow:hidden}
+.browsebutton .browse-output{position:absolute;display:block;width:10000px;height:18px;margin-right:5px;padding:0;overflow:hidden}
+.browsebutton .browse-box{position:absolute;left:198px;width:53px;height:20px;overflow:hidden;background-color:gray;opacity:0 !important;-ms-opacity:0 !important;filter:alpha(opacity=0) !important;-ms-filter:alpha(opacity=0) !important;z-index:32000}
+.browsebutton .browse-file-input{position:absolute;margin:0;padding:0;border:0 none;cursor:pointer}
+.browsebutton .browse-button{position:absolute;left:198px;width:53px;height:20px;background:url('http://static.naver.com/branding/gameaward2011/btn_file.jpg') 0 0;text-indent:-99em;overflow:hidden;display:none}
+.browsebutton .browse-applied{display:block}
+.browsebutton .browse-over{background:url('http://static.naver.com/branding/gameaward2011/btn_file.jpg') 0 0}
+
+/* 20111017 추가 */
+#wrap_type4{width:100%;position:relative}
+#wrap_type4 .bg_l{overflow:hidden;position:absolute;top:0;left:0;width:50%;height:1950px;background:url(http://static.naver.com/branding/gameaward2011/bg_main4_lt.jpg) 100% 0 no-repeat}
+#wrap_type4 .bg_r{overflow:hidden;position:absolute;top:0;left:50%;width:50%;height:1950px;background:url(http://static.naver.com/branding/gameaward2011/bg_main4_rgt.jpg) 480px 0 no-repeat}
+
+.game_intro .apply2{position:absolute;left:656px;top:164px;width:227px;height:92px;background:url(http://static.naver.com/branding/gameaward2011/btn_apply.jpg) 0 0 no-repeat}
+.game_header2_v1{position:relative;width:960px;height:451px;background:url(../img/bg_spot2.gif) 0 0 no-repeat}
+.game_content3{width:100%;height:1289px;background:#fff}
+.game_content3 .candi_section{clear:both;position:relative;padding:49px 0 0 235px;zoom:1}
+.game_content3 .candi_section_v1{padding:36px 0 0 235px}
+.game_content3 .candi_section h3{position:absolute;top:49px;left:65px;width:83px;height:49px;background:url(../img/sp_tit_award.gif) no-repeat}
+.game_content3 .candi_section_v1 h3{width:49px;height:49px;top:34px}
+.game_content3 .candi_section .tit_lnovel{background-position:0 0}
+.game_content3 .candi_section .tit_snovel{background-position:0 -49px}
+.game_content3 .candi_section .order{position:absolute;right:80px;bottom:55px}
+.game_content3 .candi_tb{position:relative;width:655px;height:308px;background:url(../img/img_award1.gif) 0 0 no-repeat}
+.game_content3 .candi_tb_v1{height:606px;background:url(../img/img_award2.gif) 0 0 no-repeat}
+.game_content3 .candi_noti{margin:26px 0 0 199px}
+.game_content3 .review_section{position:relative;padding:52px 0 0 235px;zoom:1}
+.game_content3 .review_section h3{position:absolute;top:51px;left:65px;width:66px;height:19px;background:url(../img/sp_tit_award.gif) no-repeat 0 -98px}
+.game_content3 .review_section .review_lst{width:670px;height:206px;background:url(../img/img_award3.gif) no-repeat}
+.game_content3 .review_section .mr{position:absolute;top:207px;right:217px}
+
+#pop_wrap{position:relative;width:530px;height:620px;margin:0 auto}
+.pop_header{height:85px;background:url(http://static.naver.com/branding/gameaward2011/bg_pop_header.gif) no-repeat}
+.pop_header2{height:85px;background:url(../img/bg_pop_header2.gif) 0 0 no-repeat}
+.jury_lst{width:465px;margin:7px 0 0 34px;zoom:1}
+.jury_lst:after{display:block;clear:both;content:''}
+.jury_lst li{float:left;position:relative;width:236px;padding-bottom:11px;border-bottom:1px solid #f2f2f3;zoom:1}
+.jury_lst .lst,.jury_lst .lst2{padding:1px 0 12px}
+.jury_lst .lst dl,.jury_lst .lst2 dl{margin-top:23px}
+.jury_lst .lst2,.jury_lst .lst4,.jury_lst .lst6,.jury_lst .lst8{width:228px}
+.jury_lst li .thumb{float:left;width:76px;margin:12px 12px 0 0;_margin:12px 9px 0 0}
+.jury_lst li dl{overflow:hidden;width:148px;margin:22px 0 0;background:url(http://static.naver.com/branding/gameaward2011/sp_pop_txt.gif) no-repeat;zoom:1}
+.jury_lst .lst2 dl,.jury_lst .lst4 dl,.jury_lst .lst6 dl,.jury_lst .lst8 dl{width:140px}
+.jury_lst li a img{vertical-align:top}
+.jury_lst li .btn_srch_character{position:absolute;top:84px;left:88px}
+.jury_lst li .btn_review{position:absolute;top:84px;left:150px}
+.jury_lst .lst dl{height:49px;background-position:0 0}
+.jury_lst .lst2 dl{height:50px;background-position:0 -59px}
+.jury_lst .lst3 dl{height:35px;background-position:0 -119px}
+.jury_lst .lst4 dl{height:49px;background-position:0 -164px}
+.jury_lst .lst5 dl{height:49px;background-position:0 -223px}
+.jury_lst .lst6 dl{height:49px;background-position:0 -282px}
+.jury_lst .lst7 dl{height:50px;background-position:0 -341px}
+.jury_lst .lst8 dl{height:50px;background-position:0 -401px}
+
+.pop_dsc{margin:12px 0 0 34px}
+.btn_top_clse{padding:3px 36px 0 0;text-align:right}
+.left_txt{position:absolute;left:-200px;top:52px;width:170px;height:84px;background:url(http://static.naver.com/branding/gameaward2011/bg_top_txt2.gif) 0 0 no-repeat}
+
+/* 111205추가 */
+.game_epilogue{position:relative;width:960px;height:485px}
+.game_epilogue .flash_area{padding:50px 170px 0 176px}
+.game_epilogue .flash_area .flash{padding:16px 16px 4px;border:1px solid #c7c7c7}
+.game_epilogue a.link{display:block;overflow:hidden;overflow:hidden;position:absolute;top:68px;left:712px;width:124px;height:16px;line-height:999px}
+.game_epilogue2{}
+.game_epilogue2 .dsc_epilogue{width:405px;height:16px;margin:0 0 18px 70px;background:url(../img/txt_awarded.gif)}
+.game_epilogue2 .epilogue_lst{overflow:hidden;margin:-18px 69px 47px;*zoom:1}
+.game_epilogue2 .epilogue_lst li{float:left;position:relative;width:250px;margin:18px 31px 0 0;height:218px}
+.game_epilogue2 .epilogue_lst li img{vertical-align:top}
+.game_epilogue2 .epilogue_lst li.last{margin-right:0 !important}
+.game_epilogue2 .epilogue_lst li a.link_view{overflow:hidden;position:absolute;top:192px;left:199px}
+.game_epilogue2 .epilogue_lst li a.link_trailer{overflow:hidden;position:absolute;top:192px;left:127px}
+.game_epilogue3 .dsc_epilogue2{position:relative;width:509px;height:40px;margin:0 0 21px 70px;background:url(../img/txt_awarded2.gif)}
+.game_epilogue3 .dsc_epilogue2 a.link_ucc{position:absolute;top:24px;left:363px;width:143px;height:15px}
+.game_epilogue3 .pic_epilogue{margin:0 0 24px 70px}
+.dsc_epilogue3{position:relative;width:458px;height:15px;margin-left:70px;background:url(../img/txt_awarded3.gif)}
+.dsc_epilogue3 a.link_more{position:absolute;top:-1px;left:472px}
+
+.jury_profile{position:relative;width:465px;margin:20px 0 12px 34px;zoom:1}
+.jury_profile:after{display:block;clear:both;content:''}
+.jury_profile .thmb{float:left;width:76px;margin-right:12px;_margin-right:9px}
+.jury_profile dl{overflow:hidden;width:148px;margin:0;background:url(../img/sp_pop_txt2.gif) 0 5px no-repeat;zoom:1}
+.jury_profile1 dl{height:59px}
+.jury_profile2 dl{height:59px;background-position:0 -57px}
+.jury_profile3 dl{height:42px;background-position:0 -117px}
+.jury_profile4 dl{height:56px;background-position:0 -162px}
+.jury_profile5 dl{height:57px;background-position:0 -223px}
+.jury_profile6 dl{height:56px;background-position:0 -282px}
+.jury_profile7 dl{height:58px;background-position:0 -341px}
+.jury_profile8 dl{height:57px;background-position:0 -400px}
+.jury_profile .btn_srch_character{position:absolute;top:71px;left:88px}
+.jury_profile .btn_srch_character img{vertical-align:top}
+.jury_comment{margin:0 32px 23px 33px;padding:12px 15px 8px 0px;overflow-y:scroll;height:321px;border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9}
+.jury_txt p{padding-bottom:20px;font-family:'나눔고딕',NanumGothic;font-size:12px;line-height:20px;color:#777}
+.btn_review_lst{position:absolute;bottom:29px;left:34px}
